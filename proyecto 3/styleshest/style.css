@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja{
+    position: relative;  
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+    animation-name: animacion;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animacion {
+    0%{background-color:blue;
+        top:  0;
+        left:0;} 
+    25%{background-color:chartreuse;
+        top:0px;
+        left:400px;}
+    50%{
+    background-color:chocolate;
+    top:400px;
+    left:400px;
+}
+    75%{background-color:brown;
+        top:400px;
+        left:0;}
+    100%{background-color:deepskyblue;
+        top: 0;
+        left:0;
+    transition: rotateX(2turn);}
+}
+.loader {
+    font-size: 48px;
+    font-weight: 600;
+    position: relative; left: ;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+    animation-delay: 4s;
+    animation: spotlight 6s linear infinite alternate;
+  }
+  
+  @keyframes spotlight {
+    0% , 20% {
+      opacity: 1;
+      letter-spacing: 2px;
+     }
+   80% , 100% {
+      opacity: 0;
+      letter-spacing: 32px;
+     }
+  }
+        
