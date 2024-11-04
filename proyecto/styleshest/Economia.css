@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #d91d0b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 1.5em;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #000;
+}
+
+.news-content {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+
+.news-content h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.news-content p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #000;
+}
+
+.footer .icon img {
+    width: 30px;
+    height: 30px;
+}
+/* Estilos del pie de página */
+.footer {
+    background-color: #000;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-icons a img {
+    width: 25px; /* Tamaño más pequeño para íconos en móviles */
+    height: 25px;
+}

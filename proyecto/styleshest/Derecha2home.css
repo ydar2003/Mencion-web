@@ -1,0 +1,77 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    max-width: 360px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.author {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px;
+    font-size: 0.9em;
+    font-weight: normal;
+    text-align: left;
+    border-left: 4px solid #d32f2f;
+    margin-top: 10px;
+}
+
+/* Estilos del contenido */
+.content {
+    padding: 20px;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.content p strong {
+    font-size: 1.1em;
+}
+
+/* Estilos de la ilustración */
+.illustration {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.illustration img {
+    width: 60%; /* Ajusta el tamaño de la imagen al contenedor */
+    max-width: 200px;
+}
